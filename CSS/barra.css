@@ -33,6 +33,7 @@ nav ul li a{
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
+    text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 li a.active, li a:hover{
@@ -91,3 +92,89 @@ li a.active, li a:hover{
         left:0;
     }
 }
+body{
+  background:#f5c74a;
+}
+
+.seccion1{
+    background-color: #ff9900;
+}
+
+
+/* carrusel */
+
+.slider-frame {
+	width: 1280px;
+    height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li.dise {
+	width: 75%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 75%;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+/* seccion nosotros  */
+
+.container{
+    background-color: rgb(255, 255, 255);
+    color:rgb(255, 255, 255)
+}
+
+.texto{
+    text-align: center;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.parrafo1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.seccion2{
+    background-color: rgb(255, 255, 255);
+}
+.columna_2{
+    height: auto;
+}
+.columna_1{
+    width: 50%;
+    height: auto;
+}
+ #video1{
+    height: 300;
+    
+ }
+ .fila{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
