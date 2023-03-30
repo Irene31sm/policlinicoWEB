@@ -7,7 +7,7 @@
 }
 
 nav{
-    background: #ffe7a5;
+    background: #ff9900;
     height: 80px;
     width: 100%;
 }
@@ -28,7 +28,7 @@ nav ul li{
     margin: 0 5px;
 }
 nav ul li a{
-    color: #ff9900;
+    color: #fcfcfc;
     font-size: 18px;
     padding: 7px 13px;
     border-radius: 3px;
@@ -41,7 +41,7 @@ li a.active, li a:hover{
 }
 .checkbtn{
     font-size: 30px;
-    color: #ff9900;
+    color: #ffffff;
     float: right;
     line-height: 80px;
     margin-right: 40px;
@@ -61,6 +61,7 @@ li a.active, li a:hover{
         font-size: 16px;
     }
 }
+
 
 @media (max-width: 858px){
     .checkbtn{
@@ -91,13 +92,18 @@ li a.active, li a:hover{
     #check:checked ~ ul{
         left:0;
     }
+    .slider-frame{
+        display: block;
+    }
+    
+
 }
 body{
-  background:#f5c74a;
+  background:#ecdbb6;
 }
 
 .seccion1{
-    background-color: #ff9900;
+    background-color: #fce6b7;
 }
 
 
@@ -106,7 +112,7 @@ body{
 .slider-frame {
 	width: 1280px;
     height: auto;
-	margin:50px auto 0;
+	margin:auto;
 	overflow: hidden;
 }
 
@@ -139,7 +145,8 @@ body{
 	
 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
-}
+} 
+
 
 /* seccion nosotros  */
 
@@ -150,31 +157,53 @@ body{
 
 .texto{
     text-align: center;
-    color: black;
+    color: rgb(255, 162, 41);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
 }
 
 .parrafo1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
+    margin: 50px;
 }
 
-.seccion2{
-    background-color: rgb(255, 255, 255);
-}
+
 .columna_2{
     height: auto;
 }
 .columna_1{
     width: 50%;
     height: auto;
+    margin: 50px;
 }
  #video1{
     height: 300;
+    margin: auto;
     
  }
  .fila{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 25px;
  }
+
+ .inicio1{
+    background: #ffeeca;
+ } 
+
+ /* seccion especialidades */
+ .texto2{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(255, 162, 41);
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ } 
+
+ #icono{
+    width: 50px;
+    height: 50px;
+ } 
+
